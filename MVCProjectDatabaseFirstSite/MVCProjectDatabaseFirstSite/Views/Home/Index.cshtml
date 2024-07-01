@@ -1,0 +1,19 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<main>
+    <section class="row" aria-labelledby="aspnetTitle">
+        <h1 id="title">MVC Project Database First</h1>
+    </section>
+
+    <div class="row">
+        <section class="col-md-4" aria-labelledby="gettingStartedTitle">
+            <h2 id="gettingStartedTitle">Welcome to MVC Project Database First</h2>
+        </section>
+    </div>
+</main>
+
+<div>
+    @Html.ActionLink("List of Users", "Index", "Users")
+</div>
